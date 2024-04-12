@@ -6,6 +6,7 @@ void test_add();
 int main() {
 
 	test_add();
+	test_subtract();
 	return 0;
 }
 
