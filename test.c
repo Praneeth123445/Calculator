@@ -2,6 +2,9 @@
 #include "calculator.h"
 
 void test_add();
+void test_subtract();
+void test_multiply();
+void test_divide();
 
 int main() {
 
@@ -25,7 +28,7 @@ void test_add() {
 
 void test_subtract() {
   int result = subtract(3,1);
-  if (result == 12) {
+  if (result == 2) {
         printf("Subtract test case passed\n");
     } else {
         printf("Subtract test case failed\n");
@@ -34,7 +37,7 @@ void test_subtract() {
 
 void test_multiply() {
   int result = multiply(3,1);
-  if (result == 12) {
+  if (result == 3) {
         printf("multiply test case passed\n");
     } else {
         printf("multiply test case failed\n");
@@ -43,7 +46,7 @@ void test_multiply() {
 
 void test_divide() {
   int result = divide(3,1);
-  if (result == 12) {
+  if (result == 2) {
         printf("divide test case passed\n");
     } else {
         printf("divide test case failed\n");
